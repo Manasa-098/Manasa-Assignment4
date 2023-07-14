@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    background-color: paleturquoise;
+}
+
+.content {
+    display: flex;
+}
+
+.sec1,
+.sec2 {
+    flex: 1;
+
+}
+
+.border0 {
+    border: 5px none rgb(220, 143, 220);
+    width: 120px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 10px;
+
+
+}
+
+.border1 {
+    border: 5px dotted magenta;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin: 35px;
+}
+
+.border2 {
+    border: 5px dashed goldenrod;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 35px;
+
+}
+
+.border3 {
+    border: 5px solid rgb(66, 112, 240);
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 35px;
+
+}
+
+.border4 {
+    border: 5px double rgb(3, 63, 3);
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 35px;
+
+}
+
+.border5 {
+    border: 5px groove coral;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 35px;
+}
+
+.border6 {
+    border: 5px ridge thistle;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 35px;
+}
+
+
+.border7 {
+    border: 5px inset aqua;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 35px;
+}
+
+.border8 {
+    border: 5px outset purple;
+    width: 130px;
+    height: 80px;
+    border-radius: 15px;
+}
